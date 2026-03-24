@@ -1,9 +1,11 @@
+import asyncio
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
-def main():
+async def main():
     print("Hello from langchain-course!")
 
 
